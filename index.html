@@ -54,6 +54,9 @@
           <li class="nav-item">
             <a class="nav-link" id="btnContact">Contact</a>
           </li>
+          <li class="nav-item">
+            <a class="nav-link" id="btnResume">Resume</a>
+          </li>
         </ul>
       </div>
     </nav>
@@ -518,6 +521,10 @@
   $('html, body').animate({
     scrollTop: $("#sectionContact").offset().top
   }, 2500)
+}), $('#btnResume').click(function(e) {
+    // alert("Your book is overdue.");
+  e.preventDefault();  //stop the browser from following
+    window.location.href = 'Muhammad Sameer Masood.docx';
 });
     });
     </script>
