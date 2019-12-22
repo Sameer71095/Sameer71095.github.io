@@ -507,6 +507,32 @@
   <!-- filter -->
   <script src="plugins/shuffle/shuffle.min.js"></script>
 
+  
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/7.6.1/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+         https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/7.6.1/firebase-analytics.js"></script>
+    
+    <script>
+      // Your web app's Firebase configuration
+      var firebaseConfig = {
+        apiKey: "AIzaSyBmbXg-OXWae6RszVWtmlAJRzHeCAeXwTE",
+        authDomain: "portfolio-887f8.firebaseapp.com",
+        databaseURL: "https://portfolio-887f8.firebaseio.com",
+        projectId: "portfolio-887f8",
+        storageBucket: "portfolio-887f8.appspot.com",
+        messagingSenderId: "110803887458",
+        appId: "1:110803887458:web:9730156060fe7b78c1383b",
+        measurementId: "G-G67TCZSFR5"
+      };
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+      firebase.analytics();
+    </script>
+
+
   <!-- Main Script -->
   <script src="js/script.js"></script>
   <script>
@@ -529,28 +555,6 @@
 });
     });
     </script>
-    <!-- The core Firebase JS SDK is always required and must be listed first -->
-<script src="https://www.gstatic.com/firebasejs/7.6.1/firebase-app.js"></script>
 
-<!-- TODO: Add SDKs for Firebase products that you want to use
-     https://firebase.google.com/docs/web/setup#available-libraries -->
-<script src="https://www.gstatic.com/firebasejs/7.6.1/firebase-analytics.js"></script>
-
-<script>
-  // Your web app's Firebase configuration
-  var firebaseConfig = {
-    apiKey: "AIzaSyBmbXg-OXWae6RszVWtmlAJRzHeCAeXwTE",
-    authDomain: "portfolio-887f8.firebaseapp.com",
-    databaseURL: "https://portfolio-887f8.firebaseio.com",
-    projectId: "portfolio-887f8",
-    storageBucket: "portfolio-887f8.appspot.com",
-    messagingSenderId: "110803887458",
-    appId: "1:110803887458:web:9730156060fe7b78c1383b",
-    measurementId: "G-G67TCZSFR5"
-  };
-  // Initialize Firebase
-  firebase.initializeApp(firebaseConfig);
-  firebase.analytics();
-</script>
   </body>
   </html>
